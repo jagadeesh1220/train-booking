@@ -1,0 +1,84 @@
+/* General Layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('yeshunava.jpg'); /* Add the path to your image */
+  background-size: cover; /* Ensures the background image covers the entire page */
+  background-position: center center; /* Centers the background image */
+  background-attachment: fixed; /* Keeps the background fixed when scrolling */
+  color: #333;
+  line-height: 1.6;
+}
+
+h2, h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #00b894 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  margin-left: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00cec9 !important;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card-title {
+  color: #0984e3;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #636e72;
+}
+
+.btn-primary {
+  background-color: #0984e3;
+  border: none;
+}
+
+.btn-success {
+  background-color: #00b894;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #74b9ff;
+}
+
+.btn-success:hover {
+  background-color: #55efc4;
+}
+
+#trainCard {
+  display: none;
+}
+
+#noResult {
+  color: red;
+  font-weight: bold;
+}
